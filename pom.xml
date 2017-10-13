@@ -33,7 +33,12 @@
 		   <artifactId>lombok</artifactId>
 		   <version>1.16.16</version>
 		   <scope>provided</scope>
-	</dependency>
+		</dependency>
+		<dependency>
+	      <groupId>postgresql</groupId>
+	      <artifactId>postgresql</artifactId>
+	      <version>9.1-901-1.jdbc4</version>
+	    </dependency>
     </dependencies>
 
     <properties>
